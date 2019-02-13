@@ -1,23 +1,32 @@
-# items = [] #emty list
-# print(items)
-# print(type(items))
+items = ["Com", "Pho", "Bun", "Piza"]
+#EX1:
+# for i
+#for i in range(len(items)):
+#    print(items[i])
 
-# items = ["Tea"]
+
+#EX2:
+# for reach
+#no = 0
+#for food in items:
+#    print(no, food, sep=". ")
+#    no += 1
+
+
+#EX3:A
+#for i, food in enumerate(items):                 #C2: enumerate(items, 1)
+#    print(i +1 , food)
+
+
+#EX4: 
 # print(items)
-items = ["Che", "Chao"]
-i = 0
-for j in items:
-    print(items[i])
-    i+=1
+# items.pop(1)
 # print(items)
 
-# items.append("sadasdsa")
-# print(items)
 
-# hobbies = ["CS:GO",]
-# print(hobbies)
-# n = input("Tell me your hobby")
-# hobbies.append(n)
 
-# for i in hobbies:
-#     print(hobbies)
+
+#EX5:
+print(items)
+items.remove("Bun")
+print(items)
